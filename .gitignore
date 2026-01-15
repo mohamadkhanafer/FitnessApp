@@ -1,0 +1,51 @@
+# Xcode
+build/
+.xcarchive
+*.xcarchive
+DerivedData/
+.DS_Store
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.playground/xcuserdata/
+xcUserData/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Swift
+.build/
+*.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+.idea/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Testing
+*.xctest
+.xctestrun
+
+# App artifacts
+*.app
+*.dSYM
