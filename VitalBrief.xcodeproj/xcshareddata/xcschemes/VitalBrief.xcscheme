@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "VITALBRIEF_TARGET"
+               BlueprintIdentifier = "APP_TARGET"
                BuildableName = "VitalBrief.app"
                BlueprintName = "VitalBrief"
                ReferencedContainer = "container:VitalBrief.xcodeproj">
@@ -27,22 +27,12 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "VITALBRIEF_TARGET"
-            BuildableName = "VitalBrief.app"
-            BlueprintName = "VitalBrief"
-            ReferencedContainer = "container:VitalBrief.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "VITALBRIEF_TESTS_TARGET"
+               BlueprintIdentifier = "TESTS_TARGET"
                BuildableName = "VitalBriefTests.xctest"
                BlueprintName = "VitalBriefTests"
                ReferencedContainer = "container:VitalBrief.xcodeproj">
@@ -64,7 +54,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "VITALBRIEF_TARGET"
+            BlueprintIdentifier = "APP_TARGET"
             BuildableName = "VitalBrief.app"
             BlueprintName = "VitalBrief"
             ReferencedContainer = "container:VitalBrief.xcodeproj">
@@ -81,7 +71,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "VITALBRIEF_TARGET"
+            BlueprintIdentifier = "APP_TARGET"
             BuildableName = "VitalBrief.app"
             BlueprintName = "VitalBrief"
             ReferencedContainer = "container:VitalBrief.xcodeproj">
