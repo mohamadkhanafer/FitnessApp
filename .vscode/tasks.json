@@ -1,0 +1,61 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🚀 Build & Run VitalBrief",
+      "type": "shell",
+      "command": "bash",
+      "args": ["build.sh"],
+      "cwd": "${workspaceFolder}",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "📱 Launch Simulator Only",
+      "type": "shell",
+      "command": "open -a Simulator",
+      "group": "none",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "label": "🧪 Run Tests",
+      "type": "shell",
+      "command": "xcodebuild",
+      "args": [
+        "test",
+        "-scheme", "VitalBrief",
+        "-destination", "platform=iOS Simulator,name=iPhone 15"
+      ],
+      "cwd": "${workspaceFolder}",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "🧹 Clean Build",
+      "type": "shell",
+      "command": "xcodebuild",
+      "args": [
+        "clean",
+        "-scheme", "VitalBrief"
+      ],
+      "cwd": "${workspaceFolder}",
+      "group": "none",
+      "presentation": {
+        "reveal": "silent"
+      }
+    }
+  ]
+}
